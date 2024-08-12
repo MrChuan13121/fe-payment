@@ -1,0 +1,395 @@
+/* introduce/introduce.page.module.css */
+@import url("https://fonts.googleapis.com/css?family=Asap:400,400i,700");
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+.ContentWrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PaymentPage {
+    width: 831px;
+    height: 565px;
+    background-color: #009277;
+    border-radius: 10px;
+    display: flex;
+}
+
+.PaymentFormOrder {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PaymentFormOrder .PaymentOrder {
+    width: 94%;
+    height: 96%;
+    padding: 10px;
+    background-color: #F0EFEF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PaymentFormOrder .PaymentOrder .PaymentOrderDetails{
+    width: 94%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .Checkmark {
+    width: 100%;
+    height: 38%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .Checkmark .IconCheckSuccess{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .Checkmark .IconCheckSuccess a{
+    width: 4rem; 
+    height: 4rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .Checkmark .IconCheckSuccess svg{
+    width: 100%;
+    height: 100%;
+    color: #28c943;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .Checkmark .TitleCheck{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .Checkmark .TitleCheck p{
+    font-size: 1.5rem;
+    font-family: Asap;
+    font-weight: lighter ;
+    color: #595959;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .Checkmark .Price{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .Checkmark .Price p{
+    font-size: 1.5rem;
+    font-family: Asap;
+    font-weight: 900 ;
+    color: #595959;
+}
+
+
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .OrderDetails {
+    width: 100%;
+    height: 60%;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .OrderDetails .Title {
+    width: 100%;
+    height: 15%;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .OrderDetails .Title p{
+    font-family: Asap;
+    font-weight: bold ;
+    font-size: 1.1rem;
+    color: #555555;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .OrderDetails .SimpleTable{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .OrderDetails .Bottom {
+    width: 100%;
+    height: 25%;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .OrderDetails .Bottom button{
+    width: 45%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    border-radius: 10px;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .OrderDetails .Bottom .Contect{
+    background-color: #E7E7E7;
+    color: #6F6F6F;
+    font-family: Asap;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .OrderDetails .Bottom .Contect:active{
+    background-color: #c7c7c7;
+}
+
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .OrderDetails .Bottom .Home{
+    background-color: #009277;
+    color: #ffffff;
+    font-family: Asap;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.PaymentPage .PaymentFormOrder .PaymentOrder .PaymentOrderDetails .OrderDetails .Bottom .Home:active{
+    background-color: #01D6AF;
+}
+
+.PaymentFormPrice {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.PaymentFormPrice .PaymentPriceDetail{
+    width: 96%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .PriceDetail{
+    width: 100%;
+    height: 63%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .PriceDetail .Title {
+    width: 100%;
+    height: 15%;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+.PaymentFormPrice .PaymentPriceDetail .PriceDetail .Title p{
+    font-family: Asap;
+    font-weight: bold ;
+    font-size: 1.1rem;
+    color: #555555;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .PriceDetail .SimpleTable{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .PriceDetail .SimpleTable .simpleTableTitle {
+    text-align: left;
+    padding-left: 25px;
+    font-family: Asap;
+    font-weight: lighter ;
+    color: #A5A4A4;
+}
+  
+.PaymentFormPrice .PaymentPriceDetail .PriceDetail .SimpleTable .simpleTableContent {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 25px;
+}  
+
+.PaymentFormPrice .PaymentPriceDetail .PriceDetail .SimpleTable .simpleTableContent .StatusSuccess {
+    width: 120px;
+    height: 100%;
+    color: #28CA42;
+    background-color: #BFF8C8;
+    border-radius: 8px;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .PriceDetail .Barcode{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .PriceDetail .Barcode .BarcodeImage{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #B2B1B1;
+    border-radius: 10px;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .PriceDetail .Barcode .BarcodeImage .Image{
+    width: 95%;
+    height: 95%;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .Comment{
+    width: 100%;
+    height: 35%;
+    background-color: #FBEDC9;
+    border-radius: 10px;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .Comment .Title{
+    width: 100%;
+    height: 40%;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .Comment .Title .Subject{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .Comment .Title .Subject p{
+    text-align: left;
+    padding-left: 25px;
+    font-family: Asap;
+    font-weight: bold ;
+    color: #595959;
+    font-size: 0.9rem;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .Comment .Title .Content{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .Comment .Title .Content p{
+    text-align: left;
+    padding-left: 25px;
+    font-family: Asap;
+    font-weight: lighter ;
+    color: #595959;
+    font-size: 0.65rem;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .Comment .Rating{
+    padding-left: 25px;
+    width: 60%;
+    height: 20%;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .Comment .BtnRating{
+    padding-left: 25px;
+    width: 60%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .Comment .BtnRating button{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    border-radius: 10px;
+    background-color: #F29A32;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .Comment .BtnRating button:active{
+    background-color: #F5B05F;
+}
+
+.PaymentFormPrice .PaymentPriceDetail .Comment .BtnRating .Button{
+    color: #ffffff;
+    font-family: Asap;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 831px) {
+    .PaymentPage {
+        width: 90%;
+        height: 565px;
+        background-color: #009277;
+        border-radius: 10px;
+        display: flex;
+    }
+
+    .PaymentFormOrder {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .PaymentFormPrice {
+        display: none;
+    }
+}
